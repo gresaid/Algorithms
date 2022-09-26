@@ -13,7 +13,7 @@ public class string_to_digit {
         StringBuilder result = new StringBuilder();
         for (String s: splitString){
             if(letter.contains(s))
-                result.append(Integer.toString(letter.indexOf(s)+1)).append(" ");
+                result.append(letter.indexOf(s) + 1).append(" ");
         }
         return result.toString();
 
